@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="10" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="142032" started-at="2023-09-10T23:45:19 IST" finished-at="2023-09-10T23:47:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="142032" started-at="2023-09-10T23:45:19 IST" finished-at="2023-09-10T23:47:41 IST">
+      <class name="com.crm.testcases.TC009_EditContact">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.crm.testcases.TC009_EditContact@10f8e03]" name="setData" is-config="true" duration-ms="1" started-at="2023-09-10T23:45:19 IST" finished-at="2023-09-10T23:45:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.crm.testcases.TC009_EditContact@10f8e03]" name="report" is-config="true" duration-ms="1" started-at="2023-09-10T23:46:07 IST" finished-at="2023-09-10T23:46:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.crm.testcases.TC009_EditContact@10f8e03]" name="beforeMethod" is-config="true" duration-ms="3499" started-at="2023-09-10T23:46:08 IST" finished-at="2023-09-10T23:46:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="editContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.testcases.TC009_EditContact@10f8e03]" name="editContact" duration-ms="19215" started-at="2023-09-10T23:46:11 IST" data-provider="fetchData" depends-on-methods="com.crm.testcases.TC008_CreateContact.createContact" finished-at="2023-09-10T23:46:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edit this Contact]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContact -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.crm.testcases.TC009_EditContact@10f8e03]" name="afterMethod" is-config="true" duration-ms="259" started-at="2023-09-10T23:46:30 IST" finished-at="2023-09-10T23:46:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.crm.testcases.TC009_EditContact@10f8e03]" name="beforeMethod" is-config="true" duration-ms="2871" started-at="2023-09-10T23:46:31 IST" finished-at="2023-09-10T23:46:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="editContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.testcases.TC009_EditContact@10f8e03]" name="editContact" duration-ms="19571" started-at="2023-09-10T23:46:33 IST" data-provider="fetchData" depends-on-methods="com.crm.testcases.TC008_CreateContact.createContact" finished-at="2023-09-10T23:46:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edit this Contact]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContact -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.crm.testcases.TC009_EditContact@10f8e03]" name="afterMethod" is-config="true" duration-ms="219" started-at="2023-09-10T23:46:53 IST" finished-at="2023-09-10T23:46:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.crm.testcases.TC009_EditContact -->
+      <class name="com.crm.testcases.TC010_DeactivateContact">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.crm.testcases.TC010_DeactivateContact@166ebe0]" name="setData" is-config="true" duration-ms="0" started-at="2023-09-10T23:45:19 IST" finished-at="2023-09-10T23:45:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.crm.testcases.TC010_DeactivateContact@166ebe0]" name="report" is-config="true" duration-ms="1" started-at="2023-09-10T23:46:53 IST" finished-at="2023-09-10T23:46:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.crm.testcases.TC010_DeactivateContact@166ebe0]" name="beforeMethod" is-config="true" duration-ms="4308" started-at="2023-09-10T23:46:53 IST" finished-at="2023-09-10T23:46:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deactivateContact(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.testcases.TC010_DeactivateContact@166ebe0]" name="deactivateContact" duration-ms="19961" started-at="2023-09-10T23:46:58 IST" data-provider="fetchData" depends-on-methods="com.crm.testcases.TC009_EditContact.editContact" finished-at="2023-09-10T23:47:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deactivateContact -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.crm.testcases.TC010_DeactivateContact@166ebe0]" name="afterMethod" is-config="true" duration-ms="282" started-at="2023-09-10T23:47:18 IST" finished-at="2023-09-10T23:47:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.crm.testcases.TC010_DeactivateContact@166ebe0]" name="beforeMethod" is-config="true" duration-ms="2956" started-at="2023-09-10T23:47:18 IST" finished-at="2023-09-10T23:47:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deactivateContact(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.testcases.TC010_DeactivateContact@166ebe0]" name="deactivateContact" duration-ms="20183" started-at="2023-09-10T23:47:21 IST" data-provider="fetchData" depends-on-methods="com.crm.testcases.TC009_EditContact.editContact" finished-at="2023-09-10T23:47:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deactivateContact -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.crm.testcases.TC010_DeactivateContact@166ebe0]" name="afterMethod" is-config="true" duration-ms="260" started-at="2023-09-10T23:47:41 IST" finished-at="2023-09-10T23:47:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.crm.testcases.TC010_DeactivateContact -->
+      <class name="com.crm.testcases.TC008_CreateContact">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="startReport" is-config="true" duration-ms="129" started-at="2023-09-10T23:45:19 IST" finished-at="2023-09-10T23:45:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="setData" is-config="true" duration-ms="0" started-at="2023-09-10T23:45:19 IST" finished-at="2023-09-10T23:45:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="report" is-config="true" duration-ms="7" started-at="2023-09-10T23:45:19 IST" finished-at="2023-09-10T23:45:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="beforeMethod" is-config="true" duration-ms="6656" started-at="2023-09-10T23:45:20 IST" finished-at="2023-09-10T23:45:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="createContact" duration-ms="17894" started-at="2023-09-10T23:45:27 IST" data-provider="fetchData" finished-at="2023-09-10T23:45:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="afterMethod" is-config="true" duration-ms="325" started-at="2023-09-10T23:45:45 IST" finished-at="2023-09-10T23:45:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="beforeMethod" is-config="true" duration-ms="3166" started-at="2023-09-10T23:45:45 IST" finished-at="2023-09-10T23:45:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="createContact" duration-ms="18884" started-at="2023-09-10T23:45:48 IST" data-provider="fetchData" finished-at="2023-09-10T23:46:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="afterMethod" is-config="true" duration-ms="244" started-at="2023-09-10T23:46:07 IST" finished-at="2023-09-10T23:46:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.crm.testcases.TC008_CreateContact@2db087]" name="stopReport" is-config="true" duration-ms="368" started-at="2023-09-10T23:47:41 IST" finished-at="2023-09-10T23:47:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.crm.testcases.TC008_CreateContact -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
