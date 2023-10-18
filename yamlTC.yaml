@@ -1,0 +1,8 @@
+
+   name: SuiteName
+   threadCount: 5
+   verbose: 5
+   tests:
+     - name: TestName
+       classes:
+         - name: testcase.LeafGroundWait

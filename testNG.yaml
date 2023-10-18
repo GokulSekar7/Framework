@@ -1,0 +1,10 @@
+suite:
+  -parallel : classes
+  verbose : 5
+  name : Suite
+test:
+   -threadCount : 5
+   name : Test
+classes:
+   -name : testcase.OpportunityMassDelete
+   name : testcase.OpportunityMassDelete

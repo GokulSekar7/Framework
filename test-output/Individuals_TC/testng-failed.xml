@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Individuals_TC]" verbose="5">
+  <parameter name="username" value="gokul.sekar@testleaf.com"/>
+  <parameter name="password" value="Java@223"/>
+  <test thread-count="5" parallel="classes" name="EditDeleteTC(failed)" verbose="5">
+    <classes>
+      <class name="testcase.DeleteIndividuals">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="runDelete"/>
+        </methods>
+      </class> <!-- testcase.DeleteIndividuals -->
+      <class name="testcase.EditIndividuals">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="runEdit"/>
+        </methods>
+      </class> <!-- testcase.EditIndividuals -->
+    </classes>
+  </test> <!-- EditDeleteTC(failed) -->
+</suite> <!-- Failed suite [Individuals_TC] -->

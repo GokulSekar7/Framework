@@ -1,0 +1,17 @@
+name: Individuals_TC
+parallel: tests
+verbose: 5
+threadCount: 5
+
+tests:
+  - name: CreateTC
+    parallel: classes
+    threadCount: 5 
+    classes:
+      - name: testcase.CreateIndividuals
+  - name: EditDeleteTC
+    parallel: classes
+    threadCount: 5
+    classes:
+     - name: testcase.EditIndividuals
+     - name: testcase.DeleteIndividuals
